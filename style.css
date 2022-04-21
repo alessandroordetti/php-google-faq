@@ -6,6 +6,7 @@
 
 header {
     height: 80px;
+    margin-bottom: 4rem;
 }
 
 .top-header {
@@ -43,7 +44,7 @@ button {
     background-color: #1a73e8;
     color: white;
     height: 30px;
-    border-radius: .4rem;
+    border-radius: .2rem;
     font-weight: bold;
 }
 
@@ -68,4 +69,18 @@ a {
 
 #domande li {
     color: blue;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto; 
+}
+
+.domanda {
+    margin-bottom: 1rem;
+}
+
+.risposta {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
