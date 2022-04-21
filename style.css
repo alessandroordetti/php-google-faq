@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+}
+
+.top-header {
+    display: flex;
+}
+
+.left {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.img-wrapper {
+    height: 70px;
+}
+
+.img-wrapper > img {
+    height: 100%;
+    margin-right: .3rem ;
+}
+
+h2 {
+    color: #899196;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    background-color: #1a73e8;
+    color: white;
+    height: 30px;
+    border-radius: .4rem;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#domande {
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+#domande li {
+    color: blue;
+}
