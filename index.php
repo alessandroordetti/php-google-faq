@@ -85,10 +85,11 @@ $faqs = [
     </header>
 
     <main>
-        <?php foreach ($faqs as $element){ ?>
-        <h1 class="domanda"> <?php  echo ($element['survay']); ?></h1>
+        <?php foreach ($faqs as $chiave => $valore){ ?>
 
-        <p class="risposta"> <?php   echo ($element['answer']); ?></p>
+        <h1 class="domanda"> <?php  echo ($valore['survay']); ?></h1>
+
+        <p class="risposta"> <?php   echo ($valore['answer']); ?></p>
 
         <?php } ?>
     </main>

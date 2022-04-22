@@ -67,6 +67,10 @@ a {
     border-bottom: 3px solid blue;
 }
 
+.bottom-header li:hover {
+    border-bottom: 3px solid blue;
+}
+
 #domande li {
     color: blue;
 }
